@@ -57,10 +57,10 @@ if blanks_spaces <= (game.height * game.width) / 2:
 return float((my_moves * n) - (opp_moves * m))
 ```
 Figure 1 - Aggressive and then defensive - difference: 5.8%
-![figure 1](./analysis-img/fig-1)
+![figure 1](./analysis-img/fig-1.png)
 
 Figure 2 - Defensive and then aggressive - difference: 7.1%
-![figure 2](./analysis-img/fig-2)
+![figure 2](./analysis-img/fig-2.png)
 
 ## Heuristic 2
 The main idea behind this heuristic was to penalize the computers moves that were located on the corners of the board and reward the opponent moves that were located on the corners. As previously stated, I noticed when during my trial runs of printing out the end result of game board, I noticed that corner moves often led to loses.
@@ -105,4 +105,4 @@ return float((my_moves - opp_moves) + (opp_distance_to_center - distance_to_cent
 ## My recommendation
 After running 100 matches, heuristic 3 seemed to be most effective, given that it beat AB_Improved by 2.9%. I think the reason it beats AB_Improved is because it takes two variables into its equation, the difference in the number of moves between the 2 players and the difference in distance from the centre for the 2 players. Both of these variables are vitally important to winning the game of isolation.
 
-![final results](./analysis-img/final)
+![final results](./analysis-img/final.png)
