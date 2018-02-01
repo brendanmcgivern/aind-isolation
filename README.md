@@ -25,7 +25,7 @@ bash$ run activate aind
 ```
 To run the application
 ```bash
-(aind) bash$ python solution.py 
+(aind) bash$ python tournament.py 
 ```
 To run the applications unit tests
 ```bash
