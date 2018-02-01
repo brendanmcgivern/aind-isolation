@@ -58,10 +58,12 @@ return float((my_moves * n) - (opp_moves * m))
 ```
 
 ![figure 1](./analysis-img/fig-1.png)
+
 Figure 1 - Aggressive and then defensive - difference: 5.8%
 
 
 ![figure 2](./analysis-img/fig-2.png)
+
 Figure 2 - Defensive and then aggressive - difference: 7.1%
 
 
