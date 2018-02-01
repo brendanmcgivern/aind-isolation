@@ -56,11 +56,14 @@ if blanks_spaces <= (game.height * game.width) / 2:
 # The computer player will start playing defensively and then switch to playing aggressively towards the end of the game.  Visa-versa for the opponent
 return float((my_moves * n) - (opp_moves * m))
 ```
-Figure 1 - Aggressive and then defensive - difference: 5.8%
-![figure 1](./analysis-img/fig-1.png)
 
-Figure 2 - Defensive and then aggressive - difference: 7.1%
+![figure 1](./analysis-img/fig-1.png)
+Figure 1 - Aggressive and then defensive - difference: 5.8%
+
+
 ![figure 2](./analysis-img/fig-2.png)
+Figure 2 - Defensive and then aggressive - difference: 7.1%
+
 
 ## Heuristic 2
 The main idea behind this heuristic was to penalize the computers moves that were located on the corners of the board and reward the opponent moves that were located on the corners. As previously stated, I noticed when during my trial runs of printing out the end result of game board, I noticed that corner moves often led to loses.
